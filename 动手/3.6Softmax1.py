@@ -34,7 +34,7 @@ def softmax(logits, axis=-1):
 #     return softmax(logits)
 
 
-# Model类
+# Model类，输出的是在各个类别上的概率分布
 class Model(object):
     def __init__(self):
         # 随机初始化参数,W和b都是一个样本的，不是所有样本的
@@ -47,7 +47,8 @@ class Model(object):
         # 把x_train(样本数，28,28）reshap成一个X（样本数，特征数）
         X = tf.reshape(X, shape=(-1, self.W.shape[0]))
         logits = tf.matmul(X, self.W) + self.b
-        return softmax(logits)
+        probability = softmax(logits)
+        return probability
 
 
 def cross_entropy_loss(y, y_hat):
@@ -81,7 +82,7 @@ def train_ch3(model, train_iter, test_iter, loss, num_epochs, batch_size, params
         train_l_sum, train_acc_sum, n = 0.0, 0.0, 0
         for X, y in train_iter:
             with tf.GradientTape() as tape:
-                y_hat = model(X)
+                probability = model(X)  # ==================
                 current_loss = cross_entropy_loss(y, y_hat)
             grads = tape.gradient(current_loss, params)
             if trainer is None:
@@ -98,6 +99,7 @@ def train_ch3(model, train_iter, test_iter, loss, num_epochs, batch_size, params
                 tf.cast(
                     # y既是下标号也是类别号
                     # 为什么要用argmax？因为softmax回归是一种分类方法，就是要输出最大y_hat(i)对应的那个下标i，也就是概率最大的类，即预测类别号！
+                    # 其实，这里叫y_hat不太好，准确来说应该叫概率probability_i，tf.argmax的结果叫y_hat更好一些，因为这个才是与y对应的预测类别号。
                     tf.argmax(y_hat, axis=1) == tf.cast(y, dtype=tf.int64)
                     , dtype=tf.int64)
             ).numpy()
