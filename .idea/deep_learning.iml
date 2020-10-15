@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../deep_learning" />
+    <content url="file://$MODULE_DIR$/../deep_learning">
+      <sourceFolder url="file://$MODULE_DIR$/../deep_learning/python_test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../deep_learning/tensorflow_test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../deep_learning/动手" isTestSource="false" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (DeepLearning)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

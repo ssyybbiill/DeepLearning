@@ -47,7 +47,7 @@ class Model(object):
 # 3.定义损失函数。
 # 损失函数衡量给定输入的模型输出与目标输出的匹配程度。目的是在训练过程中尽量减少这种差异。
 # 使用标准的L2损失MSE，也称为最小平方误差、最小均方误差：
-def loss(target_y, predicted_y):
+def squared_loss(target_y, predicted_y):
     # n = len(target_y)
     n = 2
     # return (predicted_y - target_y) ** 2 / n
@@ -59,7 +59,7 @@ def loss(target_y, predicted_y):
 # 我们tf.train.Optimizer推荐的实现中包含了梯度下降方案的许多变体。
 def train(model, inputs, outputs, learning_rate):
     with tf.GradientTape() as tape:
-        current_loss = loss(outputs, model(inputs))
+        current_loss = squared_loss(outputs, model(inputs))
     grads = tape.gradient(current_loss, [model.W, model.b])
     # print(grads)
     model.W.assign_sub(learning_rate * grads[0])
@@ -71,14 +71,14 @@ if __name__ == '__main__':
     x, y = getData()
     model = Model()
     y_hat = model(x)
-    print(loss(y, y_hat))
+    print(squared_loss(y, y_hat))
     print("=============================")
     Ws, bs = [], []
     epochs = range(10)
     for epoch in epochs:
         Ws.append(model.W.numpy())
         bs.append(model.b.numpy())
-        current_loss = loss(y, model(x))  # 这里使用model(x)，而不是y_hat，是因为model不断变化,loss也变化。而y_hat是一个固定值。
+        current_loss = squared_loss(y, model(x))  # 这里使用model(x)，而不是y_hat，是因为model不断变化,loss也变化。而y_hat是一个固定值。
         train(model, x, y, learning_rate=0.1)
         print(
             "Epoch %2d: W=[%1.2f,%1.2f] b=%1.2f, loss=%2.5f" % (epoch, Ws[-1][0], Ws[-1][1], bs[-1], current_loss))

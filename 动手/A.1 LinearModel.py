@@ -31,7 +31,7 @@ class Model(object):
 # 使用标准的L2损失MSE，也称为最小平方误差、最小均方误差：
 def loss(target_y, predicted_y):
     # n = len(target_y)
-    n = 1
+    # n = 1
     # return (predicted_y - target_y) ** 2 / n
     return tf.reduce_mean(tf.square(target_y - predicted_y))
 

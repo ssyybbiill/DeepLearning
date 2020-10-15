@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f017df58-f163-47ea-a663-257f9ab6acce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动手/3.6Softmax1.py" beforeDir="false" afterPath="$PROJECT_DIR$/动手/3.6Softmax1.py" afterDir="false" />
-    </list>
+    <list default="true" id="f017df58-f163-47ea-a663-257f9ab6acce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/动手/3.6Softmax1.py">
+        <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.6Softmax1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="286">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -47,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/动手/3.4Softmax.py">
+        <entry file="file://$PROJECT_DIR$/../deep_learning/动手/_3_5Fashion_MINIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="304">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -78,7 +71,14 @@
       <find>LinearRegression</find>
       <find>shape</find>
       <find>layers</find>
+      <find />
+      <find>trainer</find>
+      <find>batch</find>
     </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+      <replace>batch_size</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +102,14 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/3.6Softmax1.py" />
         <option value="$PROJECT_DIR$/动手/3.6Softmax1.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/tensorflow_test/test_sum.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/tensorflow_test/test_reduce_xx.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/tensorflow_test/test_==.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/动手/A.1 LinearModel.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/动手/3.2_A.1 LinearModel2d.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/动手/3.5Fashion-MINIST.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/动手/3.6Softmax1.py" />
+        <option value="$PROJECT_DIR$/../deep_learning/动手/_3_5Fashion_MINIST.py" />
       </list>
     </option>
   </component>
@@ -117,26 +125,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="动手" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deep_learning/tensorflow_test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\coding\deep_learning\tensorflow_test" />
+      <recent name="H:\coding\DeepLearning1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\coding\DeepLearning1\动手" />
       <recent name="G:\coding\DeepLearning1\tensorflow_test" />
       <recent name="G:\coding\DeepLearning1\python_test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\coding\DeepLearning1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,8 +175,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="3.3SimpleLinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.3.6Softmax1">
+    <configuration name="3.5Fashion-MINIST (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,34 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning/动手" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\coding\DeepLearning1\动手\3.3SimpleLinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.5Fashion-MINIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\coding\DeepLearning1\动手\3.5Fashion-MINIST.py" />
+      <option name="SCRIPT_NAME" value="G:\coding\deep_learning\动手\_3_5Fashion_MINIST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,12 +205,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning/动手" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\coding\DeepLearning1\动手\3.6Softmax1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../deep_learning/动手/3.6Softmax1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A.1 LinearModel2d-dataSplit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A.1 LinearModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +226,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning/动手" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\coding\DeepLearning1\动手\A.1 LinearModel2d-dataSplit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../deep_learning/动手/A.1 LinearModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_3_5Fashion_MINIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning/动手" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../deep_learning/动手/_3_5Fashion_MINIST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_==" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +289,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning/tensorflow_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="G:\coding\DeepLearning1\tensorflow_test\test_argmax.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../deep_learning/tensorflow_test/test_==.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,13 +345,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.3.5Fashion-MINIST (1)" />
+      <item itemvalue="Python.3.6Softmax1" />
+      <item itemvalue="Python.test_==" />
+      <item itemvalue="Python.A.1 LinearModel" />
+      <item itemvalue="Python._3_5Fashion_MINIST" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.3.6Softmax1" />
-        <item itemvalue="Python.3.5Fashion-MINIST" />
-        <item itemvalue="Python.3.3SimpleLinearRegression" />
-        <item itemvalue="Python.A.1 LinearModel2d-dataSplit" />
+        <item itemvalue="Python._3_5Fashion_MINIST" />
+        <item itemvalue="Python.3.5Fashion-MINIST (1)" />
+        <item itemvalue="Python.A.1 LinearModel" />
+        <item itemvalue="Python.test_==" />
       </list>
     </recent_temporary>
   </component>
@@ -370,12 +397,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" weight="0.12836768" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14210248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005574" side_tool="true" weight="0.18436344" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34559643" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.34486607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,7 +444,7 @@
     <entry file="file://$PROJECT_DIR$/A1.1 Metrics.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/ops/variables.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/matplotlib/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/动手/2.3AutoGradient.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/2.3AutoGradient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
@@ -430,7 +457,7 @@
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/sklearn/model_selection/_split.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/ops/random_ops.py" />
-    <entry file="file://$PROJECT_DIR$/动手/2.2DataOperate.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/2.2DataOperate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5070">
           <caret line="169" column="10" lean-forward="true" selection-start-line="169" selection-start-column="10" selection-end-line="169" selection-end-column="10" />
@@ -439,7 +466,7 @@
     </entry>
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/data/ops/dataset_ops.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/keras/engine/training_distributed.py" />
-    <entry file="file://$PROJECT_DIR$/动手/A.1 LinearModel2d-3dgraph.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/A.1 LinearModel2d-3dgraph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4230">
           <caret line="146" column="16" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="20" />
@@ -449,7 +476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/动手/A.1 LinearModel2d-dataSplit.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/A.1 LinearModel2d-dataSplit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
@@ -459,7 +486,7 @@
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/keras/engine/sequential.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/keras/losses.py" />
     <entry file="file://H:/Miniconda3/envs/tf2.0/Lib/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py" />
-    <entry file="file://$PROJECT_DIR$/动手/3.3SimpleLinearRegression.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.3SimpleLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
@@ -477,7 +504,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/动手/3.1LinearRegression.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.1LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
@@ -491,16 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动手/3.2_A.1 LinearModel2d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,33 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/动手/3.5Fashion-MINIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动手/A.1 LinearModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1198">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_test/test_argmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://G:/Miniconda3/envs/py36_tf2/Lib/site-packages/tensorflow/keras/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -562,20 +552,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/动手/3.6Softmax1.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.4Softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="442">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/动手/3.4Softmax.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning/tensorflow_test/test_argmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="28" />
+        <state>
+          <caret lean-forward="true" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/tensorflow_test/test_reduce_xx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/tensorflow_test/test_==.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/A.1 LinearModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.2_A.1 LinearModel2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Miniconda3/envs/py36_tf2/Lib/site-packages/tensorflow/python/keras/optimizer_v2/gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Miniconda3/envs/py36_tf2/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1156" column="18" selection-start-line="1156" selection-start-column="13" selection-end-line="1156" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/_3_5Fashion_MINIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning/动手/3.6Softmax1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
